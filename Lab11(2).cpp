@@ -12,7 +12,7 @@ int main()
 {
     setlocale(LC_ALL, "Russian");
     int i=0, n, k = 0;
-    printf_s("введите количество работников: ");
+    printf_s("введите количество работников: "); //help
     scanf_s("%d", &n);
     getchar();
     worker* mas = new worker[n];
