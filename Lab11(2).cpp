@@ -10,7 +10,7 @@ struct worker
 };
 int main()
 {
-    setlocale(LC_ALL, "Russian");
+    setlocale(LC_ALL, "Russian"); //русский язык
     int i=0, n, k = 0;
     printf_s("введите количество работников: "); //help
     scanf_s("%d", &n);
